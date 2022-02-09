@@ -66,4 +66,45 @@ public class ApplicationEp1 {
         System.out.println("-------------------------------");
         arrList1.forEach(i-> { if(i%2 == 0){System.out.println(i+"-"+"2 = "+ApplicationEp1.oprator(i,1,substract));}});
     }
+
+
+    // OUTPUT
+
+    /*
+        12
+        3
+        6
+        9
+        -------------------------------
+        Simple List through the forEach
+        -------------------------------
+        2
+        4
+        6
+        8
+        10
+        -------------------------------
+        Mathematical Operations for Multiply
+        -------------------------------
+        2*2 = 4
+        4*2 = 8
+        6*2 = 12
+        8*2 = 16
+        10*2 = 20
+        -------------------------------
+        Mathematical Operations for Sum
+        -------------------------------
+        2+2 = 4
+        4+2 = 6
+        6+2 = 8
+        8+2 = 10
+        10+2 = 12
+        Mathematical Operations for Substract
+        -------------------------------
+        2-2 = 1
+        4-2 = 3
+        6-2 = 5
+        8-2 = 7
+        10-2 = 9
+    */
 }
